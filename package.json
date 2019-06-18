@@ -9,15 +9,25 @@
         "type": "git",
         "url": "git+https://github.com/adriano-di-giovanni/cordova-plugin-enable-multidex.git"
     },
-    "keywords": ["ecosystem:cordova", "cordova-android", "multidex"],
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "multidex"
+    ],
     "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/adriano-di-giovanni/cordova-plugin-enable-multidex/issues"
     },
     "lint-staged": {
-        "*.js": ["eslint --fix", "git add"],
-        "*.json": ["prettier --write", "git add"]
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ],
+        "*.json": [
+            "prettier --write",
+            "git add"
+        ]
     },
     "homepage": "https://github.com/adriano-di-giovanni/cordova-plugin-enable-multidex#readme",
     "devDependencies": {
@@ -33,5 +43,8 @@
         "jest": "^22.1.4",
         "lint-staged": "^6.1.0",
         "prettier": "^1.10.2"
+    },
+    "dependencies": {
+        "cordova-common": "^3.2.0"
     }
 }
